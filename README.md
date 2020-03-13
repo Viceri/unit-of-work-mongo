@@ -7,8 +7,8 @@
 > Se estiver usando [docker](https://github.com/docker-library/mongo/issues/55).
 
 ## nuget link
-    link nuget: https://github.com/Viceri/unit-of-work-mongo.git
-    
+    link nuget: https://www.nuget.org/packages/UnitOfWorkMongo/
+
 ## Install
    
     Install-Package UnitOfWorkMongo
