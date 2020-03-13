@@ -6,6 +6,12 @@
 
 > Se estiver usando [docker](https://github.com/docker-library/mongo/issues/55).
 
+## Install
+
+    Install-Package UnitOfWorkMongo
+    
+## Usage
+
     var mongoClient = new MongoClient("mongodb://localhost");
     var transactionOptions = new TransactionOptions(readPreference: ReadPreference.Primary, readConcern: ReadConcern.Local, writeConcern: WriteConcern.WMajority);
     var unitOfWorkMongo =  new UnitOfWorkMongo.UnitOfWork(mongoClient, transactionOptions); 
